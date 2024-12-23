@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "telegram-bot-gemini"
+version = "0.1.0"
+description = ""
+authors = ["Devendra116 <chauhandevendra116@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^21.9"
+google-generativeai = ">=0.7.2"
+python-dotenv = "^1.0.1"
+colorama = "^0.4.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
